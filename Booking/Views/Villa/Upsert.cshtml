@@ -1,0 +1,63 @@
+﻿@model Villa
+
+
+<div class="w-100 card border-0 p-4">
+
+    <div class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Create Villa</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class=" card-body border">
+
+
+        <form method="post">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <input asp-for="Description" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label">Price per night</label>
+                <input asp-for="Price" type="number" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Sqft" class="form-label">Sqft</label>
+                <input asp-for="Sqft" type="number" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Occupancy" class="form-label">Occupancy</label>
+                <input asp-for="Occupancy" type="number" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="ImageUrl" class="form-label">Photo</label>
+                <input asp-for="ImageUrl" type="file" class="form-control">
+            </div>
+
+            <div class=" mx-auto btn-group-lg m-2 ">         
+                <button class="w-25 btn btn-success" asp-action="Upsert">
+                    Create
+                </button>
+                <a asp-controller="Villa" asp-action="Index" class="w-25 btn btn-secondary">
+                    Close
+                </a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+

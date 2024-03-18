@@ -9,3 +9,15 @@ C:\Users\vt709\source\repos\Booking\Application\obj\Debug\net8.0\Application.dll
 C:\Users\vt709\source\repos\Booking\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\vt709\source\repos\Booking\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\vt709\source\repos\Booking\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Repositories\Booking\Application\bin\Debug\net8.0\Application.deps.json
+D:\Repositories\Booking\Application\bin\Debug\net8.0\Application.dll
+D:\Repositories\Booking\Application\bin\Debug\net8.0\Application.pdb
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.dll
+D:\Repositories\Booking\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.pdb
+D:\Repositories\Booking\Application\obj\Debug\net8.0\ref\Application.dll

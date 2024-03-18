@@ -9,3 +9,15 @@ C:\Users\vt709\source\repos\Booking\Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\vt709\source\repos\Booking\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\vt709\source\repos\Booking\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\vt709\source\repos\Booking\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Repositories\Booking\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Repositories\Booking\Domain\bin\Debug\net8.0\Domain.dll
+D:\Repositories\Booking\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.dll
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Repositories\Booking\Domain\obj\Debug\net8.0\ref\Domain.dll
