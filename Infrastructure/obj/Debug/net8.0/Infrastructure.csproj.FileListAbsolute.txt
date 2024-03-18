@@ -1,0 +1,11 @@
+C:\Users\vt709\source\repos\Booking\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\vt709\source\repos\Booking\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\vt709\source\repos\Booking\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\vt709\source\repos\Booking\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
