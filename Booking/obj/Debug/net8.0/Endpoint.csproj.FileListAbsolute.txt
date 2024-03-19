@@ -141,3 +141,4 @@ D:\Repositories\Booking\Booking\obj\Debug\net8.0\refint\Endpoint.dll
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.pdb
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.genruntimeconfig.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\ref\Endpoint.dll
+D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cs

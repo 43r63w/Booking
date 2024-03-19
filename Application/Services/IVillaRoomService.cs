@@ -9,5 +9,6 @@ namespace Application.Services
 {
     public interface IVillaRoomService:IRepository<VillaNumber>
     {
+        Task<bool> IsExistAsync(int roomsNumber);
     }
 }
