@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint&UI", "Booking\Endpoint&UI.csproj", "{43986005-F3FD-43BC-BEB6-815756B8A701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endpoint", "Booking\Endpoint.csproj", "{43986005-F3FD-43BC-BEB6-815756B8A701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5D7D6617-AA28-4CEC-9BD9-A815354CD1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{5D7D6617-AA28-4CEC-9BD9-A815354CD1AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{D3403D17-A968-41F4-97C8-2C015011A82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{D3403D17-A968-41F4-97C8-2C015011A82C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{177B200D-F169-45C0-9D2D-7AD449111EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{177B200D-F169-45C0-9D2D-7AD449111EBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

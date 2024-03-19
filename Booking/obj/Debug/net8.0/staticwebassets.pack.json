@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "D:\\Repositories\\Booking\\Booking\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Endpoint&UI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Endpoint&UI.bundle.scp.css"
+      "Id": "D:\\Repositories\\Booking\\Booking\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Endpoint.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Endpoint.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Logo\\resort.png",
+      "PackagePath": "staticwebassets\\Images\\Logo\\resort.png"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\site.css",
@@ -245,20 +249,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Endpoint&UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Endpoint.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Endpoint&UI.props",
-      "PackagePath": "build\\Endpoint&UI.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Endpoint.props",
+      "PackagePath": "build\\Endpoint.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Endpoint&UI.props",
-      "PackagePath": "buildMultiTargeting\\Endpoint&UI.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Endpoint.props",
+      "PackagePath": "buildMultiTargeting\\Endpoint.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Endpoint&UI.props",
-      "PackagePath": "buildTransitive\\Endpoint&UI.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Endpoint.props",
+      "PackagePath": "buildTransitive\\Endpoint.props"
     }
   ],
   "ElementsToRemove": []

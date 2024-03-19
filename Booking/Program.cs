@@ -1,4 +1,6 @@
+using Application.Services;
 using Infrastructure.Data;
+using Infrastructure.Implementations;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(
     ));
 
 
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 

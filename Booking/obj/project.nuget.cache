@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fqpMZPd83ijgCt7S4rfKFLJ1tog5uRAKhp2N9H/1xleIuEwz7yyYP9uMDFWfNcyvViNoYWBsICRi6LaUvAniug==",
+  "dgSpecHash": "Io2qMKy/vul7L22CWdCKYXDdYbd35enXvOG4LoFTf4psBMOXOq0+SKx4P74Yq8EpLB3WesMLaSNFMB9zLRk6fQ==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\Booking\\Booking\\Endpoint&UI.csproj",
+  "projectFilePath": "D:\\Repositories\\Booking\\Booking\\Endpoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vt709\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vt709\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

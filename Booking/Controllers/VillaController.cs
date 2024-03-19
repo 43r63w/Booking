@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using Application.Services;
+using Domain.Models;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -9,53 +10,63 @@ namespace EndpointUI.Controllers
 
     public class VillaController : Controller
     {
-        private readonly ApplicationDbContext _context;
-
-        public VillaController(ApplicationDbContext context)
+        private readonly IUnitOfWork _unitOfWork;
+        public VillaController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            IEnumerable<Villa> villasList = await _context.Villas.AsNoTracking().ToListAsync();
-
-            return View(villasList);
+            IEnumerable<Villa> villas = await _unitOfWork.IVillaService.GetAllAsync();
+            return View(villas);
         }
 
         [HttpGet]
-        public async Task<IActionResult> Upsert()
+        public async Task<IActionResult> Upsert(int villaId)
         {
-            return View();
+            var fromDb = await _unitOfWork.IVillaService.GetAsync(i => i.Id == villaId);
+
+            if (fromDb == null)
+            {
+                return View(new Villa());
+            }   
+            return View(fromDb);
+
         }
 
         [HttpPost]
         public async Task<IActionResult> Upsert(Villa model)
         {
-            _context.Villas.Add(model);
-            await _context.SaveChangesAsync();
+            if (ModelState.IsValid)
+            {
+                _unitOfWork.IVillaService.Add(model);
+                await _unitOfWork.SaveAsync();
+                TempData["success"] = "Villa Create/Update";
+                return RedirectToAction("Index");
+            }
+            TempData["error"] = "Something error,try again";
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Remove(int villaId)
+        {
+            var fromDb = await _unitOfWork.IVillaService.GetAsync(i => i.Id == villaId);
+        
+            return View(fromDb);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Remove(Villa item)
+        {
+            var fromDb = await _unitOfWork.IVillaService.GetAsync(i => i.Id == item.Id);
+            _unitOfWork.IVillaService.Remove(fromDb);
+            await _unitOfWork.SaveAsync();
+            TempData["success"] = "Villa Remove";
             return RedirectToAction("Index");
         }
-
-        [HttpDelete]
-        public async Task<IActionResult> Remove(int Id)
-        {
-            _context.Remove(Id);
-            await _context.SaveChangesAsync();  
-           
-        
-            return Ok();
-        }
-
-
-
-        [HttpPatch]
-        public async Task<IActionResult> Upsert1(Villa model)
-        {
-            return View();
-        }
-
     }
 
 

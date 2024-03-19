@@ -21,3 +21,7 @@ D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.dll
 D:\Repositories\Booking\Application\obj\Debug\net8.0\refint\Application.dll
 D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.pdb
 D:\Repositories\Booking\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Repositories\Booking\Application\bin\Debug\net8.0\Domain.dll
+D:\Repositories\Booking\Application\bin\Debug\net8.0\Domain.pdb
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Repositories\Booking\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date

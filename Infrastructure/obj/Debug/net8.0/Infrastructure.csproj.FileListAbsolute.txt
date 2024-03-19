@@ -27,3 +27,5 @@ D:\Repositories\Booking\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dl
 D:\Repositories\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\Repositories\Booking\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\Repositories\Booking\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Repositories\Booking\Infrastructure\bin\Debug\net8.0\Application.dll
+D:\Repositories\Booking\Infrastructure\bin\Debug\net8.0\Application.pdb
