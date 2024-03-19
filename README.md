@@ -12,6 +12,9 @@ Mailjet
 Stripe
 JWT
 Chart.js
+TinyMCE
+
+
 
 MSSQL SERVER/SSMS19
 
