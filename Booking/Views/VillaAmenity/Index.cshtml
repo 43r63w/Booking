@@ -1,0 +1,44 @@
+﻿
+
+
+<div class="w-100 card border-0 p-4">
+
+    <div class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Amenity List</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-body p-4 border">
+
+        <div class="row pb-3">
+            <div class="row pb-1">
+                <div class="col-6 offset-6 text-end">
+                    <a class="btn btn-secondary" asp-action="Upsert"><i class="bi bi-plus-square"></i>  New Villa</a>
+                </div>
+            </div>
+        </div>
+
+        <table id="amenityTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Villa Name</th>              
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/amenityTable.js"></script>
+}
+

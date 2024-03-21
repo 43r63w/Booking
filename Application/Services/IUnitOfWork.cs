@@ -13,6 +13,9 @@ namespace Application.Services
         
         public IVillaRoomService IVillaRoomService { get; }
 
+
+        public IAmenityService IAmenityService { get; }
+
         Task<bool> SaveAsync();
        
     }

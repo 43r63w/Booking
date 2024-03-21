@@ -1,4 +1,4 @@
-﻿@model IEnumerable<VillaNumber>
+﻿
 
 
 
@@ -23,39 +23,22 @@
             </div>
         </div>
 
-        <table class="table table-bordered table-striped">
+        <table id="villaRoomNumber" class="table table-bordered table-striped">
             <thead>
                 <tr>
-                    <th>Room Number</th>
-                    <th>Name</th>     
+                    <th>Villa Number</th>
+                     <th>Villa Name</th>
                     <th>Special Details</th>
                     <th>Action</th>
                 </tr>
             </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td style="width:100px;">@item.Villa_Number</td>
-                        <td style="width:250px;">@item.Villa.Name</td>
-                        <td style="width:450px;">@item.SpecialDetails</td>
-                        <td style="width:120px;" class="btn-group-md position-sticky">
-                            <a class="text-end btn btn-success" asp-route-villaId="@item.Villa_Number" asp-controller="VillaNumber" asp-action="Upsert">
-                                <i class="bi bi-pen"></i>
-                            </a>
-                            <a class="text-end btn btn-danger" asp-route-villaId="@item.Villa_Number" asp-controller="VillaNumber" asp-action="Remove">
-                                <i class="bi bi-trash"></i>
-                            </a>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+         
+        </table>      
     </div>
 </div>
 
 
 
-
-
-
+@section Scripts {
+    <script src="~/js/villaNumber1.js"></script>
+}

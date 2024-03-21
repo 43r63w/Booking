@@ -22,5 +22,10 @@ namespace Domain.Models
 
         public string? SpecialDetails { get; set; }
 
+
+
+        [NotMapped]
+        public int PageNumber { get; set; }
+
     }
 }

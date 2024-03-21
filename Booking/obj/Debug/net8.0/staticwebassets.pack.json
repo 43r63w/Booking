@@ -5,8 +5,44 @@
       "PackagePath": "staticwebassets\\Endpoint.bundle.scp.css"
     },
     {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\accessDenied.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\accessDenied.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\notfound.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\notfound.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\orderConfirmed.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\orderConfirmed.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\placeholder.png",
+      "PackagePath": "staticwebassets\\Images\\Assests\\placeholder.png"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\slide1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\slide2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\slide2.jpg"
+    },
+    {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Logo\\resort.png",
       "PackagePath": "staticwebassets\\Images\\Logo\\resort.png"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Luxury Pool Villa\\16973958-1b28-4f0c-8034-bdad0d6c3ed4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\16973958-1b28-4f0c-8034-bdad0d6c3ed4.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Premium Pool Villa\\59b1d58b-23a8-4ef2-97da-6924c9196a08.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Premium Pool Villa\\59b1d58b-23a8-4ef2-97da-6924c9196a08.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\10eb9247-5215-4bbd-9833-3b98ba3c1c8a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\10eb9247-5215-4bbd-9833-3b98ba3c1c8a.jpg"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\site.css",
@@ -17,8 +53,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\amenityTable.js",
+      "PackagePath": "staticwebassets\\js\\amenityTable.js"
+    },
+    {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\villa.js",
+      "PackagePath": "staticwebassets\\js\\villa.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\villaNumber1.js",
+      "PackagePath": "staticwebassets\\js\\villaNumber1.js"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\LICENSE",

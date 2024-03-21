@@ -1,15 +1,16 @@
 ﻿using Application.Services;
 using Domain.Models;
-using Endpoint.Models.ViewModels;
+using Endpoint.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Diagnostics;
 
 namespace Endpoint.Controllers
 {
     public class VillaNumberController : Controller
     {
+
         private readonly IUnitOfWork _unitOfWork;
+
         public VillaNumberController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -21,10 +22,11 @@ namespace Endpoint.Controllers
             IEnumerable<VillaNumber> villaNumbers = await _unitOfWork.IVillaRoomService.GetAllAsync(includeOptions: "Villa");
             return View(villaNumbers);
         }
+
         [HttpGet]
-        public async Task<IActionResult> Upsert(int villaId)
+        public async Task<IActionResult> Upsert(int villaNumberId)
         {
-            var fromDb = await _unitOfWork.IVillaRoomService.GetAsync(i => i.Villa_Number == villaId);
+            var fromDb = await _unitOfWork.IVillaRoomService.GetAsync(i => i.Villa_Number == villaNumberId);
 
             if (fromDb == null)
             {
@@ -86,23 +88,29 @@ namespace Endpoint.Controllers
 
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Remove(int villaId)
-        {
-            var fromDb = await _unitOfWork.IVillaService.GetAsync(i => i.Id == villaId);
+    
 
-            return View(fromDb);
+        #region DataTableCall
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+
+            var villas = await _unitOfWork.IVillaRoomService.GetAllAsync(includeOptions: "Villa");
+
+            return Json(new { data = villas });
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Remove(VillaNumber item)
+        [HttpDelete]
+        public async Task<IActionResult> Remove(int villaNumberId)
         {
-            var fromDb = await _unitOfWork.IVillaRoomService.GetAsync(i => i.Villa_Number == item.Villa_Number);
+            var fromDb = await _unitOfWork.IVillaRoomService.GetAsync(i => i.Villa_Number == villaNumberId);
             _unitOfWork.IVillaRoomService.Remove(fromDb);
             await _unitOfWork.SaveAsync();
-            TempData["success"] = "Villa Remove";
-            return RedirectToAction("Index");
+
+            return Json(new { success = true, message = "Villa Remove" });
         }
 
+
+        #endregion
     }
 }

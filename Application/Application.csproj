@@ -10,4 +10,9 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MailJet\" />
+    <Folder Include="JWT\" />
+  </ItemGroup>
+
 </Project>

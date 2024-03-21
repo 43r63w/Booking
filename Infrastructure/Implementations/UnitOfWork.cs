@@ -17,11 +17,15 @@ namespace Infrastructure.Implementations
             _context = context;
             IVillaService = new VillaService(context);
             IVillaRoomService = new VillaRoomService(context);
+            IAmenityService = new AmenityService(context);
+
         }
 
         public IVillaService IVillaService { get; private set; }
 
         public IVillaRoomService IVillaRoomService { get; private set; }
+
+        public IAmenityService IAmenityService { get; private set; }
 
         public async Task<bool> SaveAsync()
         {

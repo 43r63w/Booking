@@ -121,6 +121,7 @@ D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.GeneratedMSBuildEditor
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.AssemblyInfoInputs.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.AssemblyInfo.cs
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.csproj.CoreCompileInputs.cache
+D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cs
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.RazorAssemblyInfo.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.RazorAssemblyInfo.cs
@@ -141,4 +142,3 @@ D:\Repositories\Booking\Booking\obj\Debug\net8.0\refint\Endpoint.dll
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.pdb
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.genruntimeconfig.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\ref\Endpoint.dll
-D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cs

@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,9 +25,15 @@ namespace Domain.Models
         [Required(ErrorMessage = "This field is required")]
         [Range(1, 30)]
         public int Occupancy { get; set; }
+        [NotMapped]
+        public  IFormFile Image { get; set; }
         public string? ImageUrl { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? UpdateDate { get; set; }
 
+
+        [ValidateNever]
+        public IEnumerable<Amenity> VillaAmenities { get; set; }
     }
+
 }
