@@ -18,3 +18,6 @@ TinyMCE
 
 MSSQL SERVER/SSMS19
 
+
+Deploy: Microsoft Azure
+
