@@ -1,9 +1,12 @@
-﻿using Application.Services;
+﻿
+using Application.Services;
 using Domain.Models;
 using Infrastructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query.Internal;
+using System.Net.Http.Headers;
 
 namespace EndpointUI.Controllers
 {
@@ -11,6 +14,9 @@ namespace EndpointUI.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
+
+
+
         public VillaController(IUnitOfWork unitOfWork,
             IWebHostEnvironment webHostEnvironment)
         {
@@ -21,6 +27,9 @@ namespace EndpointUI.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+
+            var token = HttpContext.Request.Cookies["Token"];
+
             IEnumerable<Villa> villas = await _unitOfWork.IVillaService.GetAllAsync();
             return View(villas);
         }
@@ -84,8 +93,6 @@ namespace EndpointUI.Controllers
             TempData["error"] = "Something error,try again";
             return View(model);
         }
-
-    
 
 
         #region DataTableCall 

@@ -78,7 +78,7 @@ namespace Endpoint.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var amenities = await _unitOfWork.IAmenityService.GetAllAsync(includeOptions: "Villa");
+            var amenities = await _unitOfWork.IAmenityService.GetAllAsync(includeOptions:"Villa");
 
             return Json(new { data = amenities });
         }

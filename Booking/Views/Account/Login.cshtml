@@ -1,0 +1,54 @@
+﻿@model LoginVM
+
+
+
+
+
+
+
+
+
+<div style="margin-left:500px;" class="card  w-50 border-0 p-5">
+
+    <div class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Login</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body p-4 border">
+        <form class="row" method="post" asp-action="Login">
+            <div class="form-floating mb-3 col-md-12">
+                <input asp-for="User!.Email" class="form-control" aria-required="true" />
+                <label class="ms-2 text-muted">Email</label>
+
+            </div>
+            <div class="form-floating mb-3 col-md-12">
+                <input asp-for="User!.Password" class="form-control" />
+                <label class="ms-2 text-muted">Password</label>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="w-100 btn btn-lg btn-outline-success">Register</button>
+            </div>
+        </form>
+
+        <hr />
+        <a style="color:white;margin-left:300px;" asp-controller="Account" asp-action="Register">
+            I don`nt have account
+        </a>
+
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+
+}

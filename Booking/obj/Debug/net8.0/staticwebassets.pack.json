@@ -37,8 +37,24 @@
       "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\16973958-1b28-4f0c-8034-bdad0d6c3ed4.jpg"
     },
     {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Luxury Pool Villa\\c69e7e15-c674-4b87-b5ff-6e28576c5a2a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\c69e7e15-c674-4b87-b5ff-6e28576c5a2a.jpg"
+    },
+    {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Premium Pool Villa\\59b1d58b-23a8-4ef2-97da-6924c9196a08.jpg",
       "PackagePath": "staticwebassets\\Images\\Villa\\Premium Pool Villa\\59b1d58b-23a8-4ef2-97da-6924c9196a08.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Premium Pool Villa\\5b0dcc27-0bb2-4733-8ba3-06225df00529.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Premium Pool Villa\\5b0dcc27-0bb2-4733-8ba3-06225df00529.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Presidential Villa\\74530440-903e-425e-b575-dccec3511c0c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Presidential Villa\\74530440-903e-425e-b575-dccec3511c0c.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\0a8943cc-aec8-47dd-96c5-46190ff5a610.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\0a8943cc-aec8-47dd-96c5-46190ff5a610.jpg"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\10eb9247-5215-4bbd-9833-3b98ba3c1c8a.jpg",
@@ -47,6 +63,10 @@
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\spinner.css",
+      "PackagePath": "staticwebassets\\css\\spinner.css"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\favicon.ico",

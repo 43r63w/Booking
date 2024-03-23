@@ -5,7 +5,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Models
@@ -33,7 +35,12 @@ namespace Domain.Models
 
 
         [ValidateNever]
+        [JsonIgnore]
         public IEnumerable<Amenity> VillaAmenities { get; set; }
+
+
+        [NotMapped]
+        public bool IsAvailable { get; set; } = true;
     }
 
 }

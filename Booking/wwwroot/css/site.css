@@ -22,3 +22,18 @@ html {
 body {
 	margin-bottom: 60px;
 }
+
+
+
+
+.auth {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+	.auth a {
+		margin-right: 15px;
+		text-decoration:none;
+		list-style-type:none;
+		color:white;
+	}

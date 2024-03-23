@@ -1,16 +1,15 @@
+using Application.JWT;
 using Application.Services;
 using Booking.Models;
 using Endpoint.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
 namespace Booking.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IUnitOfWork _unitOfWork;
-
         public HomeController(ILogger<HomeController> logger,
             IUnitOfWork unitOfWork)
         {
@@ -18,19 +17,56 @@ namespace Booking.Controllers
             _unitOfWork = unitOfWork;
         }
 
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-
             HomeVM homeVM = new HomeVM
             {
-
                 VillasList = await _unitOfWork.IVillaService.GetAllAsync(includeOptions: "VillaAmenities"),
                 Nights = 1,
                 CheckInDate = DateOnly.FromDateTime(DateTime.Now),
             };
 
+
+
             return View(homeVM);
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Index(HomeVM homeVM)
+        {
+            homeVM.VillasList = await _unitOfWork.IVillaService.GetAllAsync(includeOptions: "VillaAmenities");
+            return View(homeVM);
+        }
+
+        public IActionResult GetVillasByDate(int nigths, DateOnly CheckInDate)
+        {
+            Thread.Sleep(500);
+
+            var villasList = _unitOfWork.IVillaService.GetAll(includeOptions: "VillaAmenities");
+
+            foreach (var villa in villasList)
+            {
+                if (villa.Id % 2 == 0)
+                {
+                    villa.IsAvailable = false;
+                }
+            }
+
+            HomeVM homeVM = new HomeVM
+            {
+                VillasList = villasList,
+                Nights = nigths,
+                CheckInDate = CheckInDate,
+            };
+
+        
+            return PartialView("_VillaList", homeVM);
+
+        }
+
+
 
         public IActionResult Privacy()
         {

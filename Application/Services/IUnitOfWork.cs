@@ -12,9 +12,10 @@ namespace Application.Services
         public IVillaService IVillaService { get; }
         
         public IVillaRoomService IVillaRoomService { get; }
-
-
+ 
         public IAmenityService IAmenityService { get; }
+
+        public IUserService IUserService { get; }
 
         Task<bool> SaveAsync();
        
