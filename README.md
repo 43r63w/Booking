@@ -2,7 +2,8 @@
  
 #Technologies Stack:
 
-.NET 8/ASP.NET MVC/Clean Architecture
+.NET 8/ASP.NET MVC/Razor Pages/Clean Architecture
+
 
 
 EF CORE
