@@ -1,9 +1,4 @@
 ﻿@model HomeVM
-@inject JWTService _jwtService;
-@{
-    var token = Context.Request.Cookies["Token"];
-    var user = _jwtService.DecodeToken(token);
-}
 
 <div>
     <div id="carouselExampleIndicators" class="carousel slide">

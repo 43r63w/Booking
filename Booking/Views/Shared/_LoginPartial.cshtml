@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> _signInManager;
+@inject UserManager<ApplicationUser> _userManager
+
+
+
+<div class="auth">
+    @if (_signInManager.IsSignedIn(User))
+    {
+        <a href="#">@_userManager.GetUserAsync(User).GetAwaiter().GetResult()</a>
+        <a asp-controller="Account" asp-action="Logout">Logout</a>
+    }
+    else
+    {
+        <a asp-controller="Account" asp-action="Register">Register</a>
+        <a asp-controller="Account" asp-action="Login">Login</a>
+    }
+</div>

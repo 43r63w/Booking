@@ -1,5 +1,6 @@
 ﻿
 using Application.Services;
+using Application.Utility;
 using Domain.Models;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Authorization;
@@ -10,6 +11,8 @@ using System.Net.Http.Headers;
 
 namespace EndpointUI.Controllers
 {
+
+    [Authorize(Roles = SD.Admin)]
     public class VillaController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

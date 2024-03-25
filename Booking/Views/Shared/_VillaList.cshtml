@@ -1,9 +1,5 @@
 ﻿@model HomeVM
-@inject JWTService _jwtService;
-@{
-    var token = Context.Request.Cookies["Token"];
-    var user = _jwtService.DecodeToken(token);
-}
+
 
 <div id="VillasList">
     <div class="row px-lg-5 m-lg-4 m-sm-0 px-sm-0" style="--bs-gutter-x:0">
@@ -34,8 +30,13 @@
                                 {
                                     if (villa.IsAvailable)
                                     {
-                                        <a class="btn btn-success @(user.Id > 0 ? "":"disabled")   form-control btn-block">
-                                            @(user.Id > 0 ? "Book" : "Authenticate")
+                                        <a class="btn btn-success  form-control btn-block"
+                                           asp-controller="Booking"
+                                           asp-action="FinalizeBooking"
+                                           asp-route-villaId="@villa.Id"
+                                           asp-route-checkInDate="@Model.CheckInDate.ToString("yyyy-MM-dd")"
+                                           asp-route-nights="@Model.Nights">
+                                            Book
                                         </a>
                                     }
                                     else

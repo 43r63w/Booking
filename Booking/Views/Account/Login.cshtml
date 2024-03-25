@@ -1,13 +1,5 @@
 ﻿@model LoginVM
 
-
-
-
-
-
-
-
-
 <div style="margin-left:500px;" class="card  w-50 border-0 p-5">
 
     <div class="card-header bg-success bg-gradient m-lg-0 py-3">
@@ -17,16 +9,16 @@
             </div>
         </div>
     </div>
-
     <div class="card-body p-4 border">
         <form class="row" method="post" asp-action="Login">
+            <input asp-for="RedirectUrl" hidden />
             <div class="form-floating mb-3 col-md-12">
-                <input asp-for="User!.Email" class="form-control" aria-required="true" />
+                <input asp-for="Email" class="form-control" aria-required="true" />
                 <label class="ms-2 text-muted">Email</label>
 
             </div>
             <div class="form-floating mb-3 col-md-12">
-                <input asp-for="User!.Password" class="form-control" />
+                <input asp-for="Password" type="password" class="form-control" />
                 <label class="ms-2 text-muted">Password</label>
             </div>
             <div class="col-12">
@@ -42,6 +34,10 @@
     </div>
 
 </div>
+
+
+
+
 
 
 

@@ -1,6 +1,8 @@
 ﻿using Application.Services;
+using Application.Utility;
 using Domain.Models;
 using Endpoint.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -8,6 +10,8 @@ using System.Diagnostics;
 
 namespace Endpoint.Controllers
 {
+
+    [Authorize(Roles = SD.Admin)]
     public class VillaAmenityController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

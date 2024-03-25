@@ -17,6 +17,9 @@ namespace Application.Services
 
         public IUserService IUserService { get; }
 
+        
+        public IBookingService IBookingService { get; }
+
         Task<bool> SaveAsync();
        
     }

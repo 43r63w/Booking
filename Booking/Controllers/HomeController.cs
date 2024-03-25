@@ -1,4 +1,4 @@
-using Application.JWT;
+
 using Application.Services;
 using Booking.Models;
 using Endpoint.ViewModels;
@@ -40,7 +40,7 @@ namespace Booking.Controllers
             return View(homeVM);
         }
 
-        public IActionResult GetVillasByDate(int nigths, DateOnly CheckInDate)
+        public IActionResult GetVillasByDate(int nigths, DateOnly checkInDate)
         {
             Thread.Sleep(500);
 
@@ -58,7 +58,7 @@ namespace Booking.Controllers
             {
                 VillasList = villasList,
                 Nights = nigths,
-                CheckInDate = CheckInDate,
+                CheckInDate = checkInDate,
             };
 
         

@@ -1,13 +1,10 @@
 
-using Application.JWT;
 using Application.Services;
+using Domain.Models;
 using Infrastructure.Data;
 using Infrastructure.Implementations;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,30 +14,28 @@ builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDbConnection")
     ));
 
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
-builder.Services.AddAuthentication(options =>
+builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-
-        ValidAudience = "localhost",
-        ValidIssuer = "localhost",
-        ValidateIssuerSigningKey = true,
-        ValidateLifetime = true,
-
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration.GetSection("JWT:Key").Value))
-    };
-
-
+    options.AccessDeniedPath = "/Account/AccessDenied";
+    options.LoginPath = "/Account/Login";
 });
 
 
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
+});
+
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<JWTService>();
+
 
 
 
@@ -62,13 +57,7 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
-
-app.MapControllerRoute(
-    name: "Login",
-    pattern: "Login",
-    defaults: new { controller = "Account", action = "Login" }
-    );
+;
 
 app.MapControllerRoute(
     name: "default",

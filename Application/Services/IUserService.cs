@@ -10,14 +10,10 @@ using System.Threading.Tasks;
 namespace Application.Services
 {
 
-    public interface IUserService : IRepository<User>
+    public interface IUserService : IRepository<ApplicationUser>
     {
 
-        Task<string> Login(User model);
-
-        Task<bool> Register(User model);
-
-        bool Logout(string token,HttpContext? httpContext = null);
+     
 
 
     }

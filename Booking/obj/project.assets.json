@@ -2119,6 +2119,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "compile": {
@@ -2136,6 +2137,7 @@
           "BCrypt.Net-Next": "4.0.3",
           "Domain": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.3",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore": "8.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "System.IdentityModel.Tokens.Jwt": "7.4.1"

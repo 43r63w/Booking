@@ -5,11 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
-
-
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
@@ -19,9 +17,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.1" />
   </ItemGroup>
-
-
-
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
@@ -31,6 +26,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\Images\Logo\" />
     <Folder Include="wwwroot\Images\Assests\" />
+    <Folder Include="wwwroot\Images\Villa\" />
   </ItemGroup>
 
 </Project>

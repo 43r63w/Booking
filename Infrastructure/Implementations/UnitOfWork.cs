@@ -1,5 +1,4 @@
-﻿using Application.JWT;
-using Application.Services;
+﻿using Application.Services;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Http;
 using System;
@@ -14,19 +13,19 @@ namespace Infrastructure.Implementations
     public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _context;
-        private readonly JWTService _jWTService;
+       
 
     
-        public UnitOfWork(ApplicationDbContext context,
-            JWTService jWTService
+        public UnitOfWork(ApplicationDbContext context
+           
             )
         {
             _context = context;
             IVillaService = new VillaService(context);
             IVillaRoomService = new VillaRoomService(context);
             IAmenityService = new AmenityService(context);
-            IUserService = new UserService(context, jWTService);
-          
+            IUserService = new UserService(context);    
+            IBookingService = new BookingService(context);
         }
 
         public IVillaService IVillaService { get; private set; }
@@ -36,6 +35,8 @@ namespace Infrastructure.Implementations
         public IAmenityService IAmenityService { get; private set; }
 
         public IUserService IUserService { get; private set; }
+
+        public IBookingService IBookingService { get; private set; }
 
         public async Task<bool> SaveAsync()
         {

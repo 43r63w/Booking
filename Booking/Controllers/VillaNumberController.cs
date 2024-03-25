@@ -1,11 +1,14 @@
 ﻿using Application.Services;
+using Application.Utility;
 using Domain.Models;
 using Endpoint.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Endpoint.Controllers
 {
+    [Authorize(Roles = SD.Admin)]
     public class VillaNumberController : Controller
     {
 
@@ -88,7 +91,7 @@ namespace Endpoint.Controllers
 
         }
 
-    
+
 
         #region DataTableCall
         [HttpGet]
