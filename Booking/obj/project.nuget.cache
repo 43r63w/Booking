@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h0U6QGyuBXgSLScjfr0ePgZmV8NLv5DlQxIgzPhhc7f5pj2Xx5rfPgf32bmJmXmev8UInrrey2x8XLMrWR4lqQ==",
+  "dgSpecHash": "uID5LSSURfC+oU0aB47OBfyJxCjoQiiOAeJWCFwJI8gF/jfL+cG7+epQGaTaOBa51ZU94hdyNXZpu4woMSpeoQ==",
   "success": true,
   "projectFilePath": "D:\\Repositories\\Booking\\Booking\\Endpoint.csproj",
   "expectedPackageFiles": [
@@ -77,6 +77,8 @@
     "C:\\Users\\vt709\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\vt709\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\vt709\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\vt709\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\vt709\\.nuget\\packages\\stripe.net\\43.20.0\\stripe.net.43.20.0.nupkg.sha512",
     "C:\\Users\\vt709\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\vt709\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\vt709\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

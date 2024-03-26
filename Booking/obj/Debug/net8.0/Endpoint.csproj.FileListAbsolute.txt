@@ -150,3 +150,5 @@ D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.E
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Stripe.net.dll

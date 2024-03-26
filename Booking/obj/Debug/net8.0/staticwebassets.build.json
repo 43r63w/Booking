@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rDpcD/oanzQuLbmYY37MY6B8fowQwOF5eB5a61o0FVU=",
+  "Hash": "gEpFZdMqB0cBS8OLCYHgkEnLgsnuOvLP/C/8bWpqpHc=",
   "Source": "Endpoint",
   "BasePath": "_content/Endpoint",
   "Mode": "Default",
@@ -283,6 +283,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\Villa\\Premium Pool Villa\\591924b4-e0b3-4c96-b93d-3ec087479910.jpg"
     },
     {
+      "Identity": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg",
+      "SourceId": "Endpoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repositories\\Booking\\Booking\\wwwroot\\",
+      "BasePath": "_content/Endpoint",
+      "RelativePath": "Images/Villa/Royal Villa/3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Villa\\Royal Villa\\3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg"
+    },
+    {
       "Identity": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\c9868e37-4155-4fc5-90e6-78519e3ce2a0.jpg",
       "SourceId": "Endpoint",
       "SourceType": "Discovered",
@@ -319,6 +338,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\amenityTable.js"
+    },
+    {
+      "Identity": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings.js",
+      "SourceId": "Endpoint",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repositories\\Booking\\Booking\\wwwroot\\",
+      "BasePath": "_content/Endpoint",
+      "RelativePath": "js/bookings.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bookings.js"
     },
     {
       "Identity": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\site.js",

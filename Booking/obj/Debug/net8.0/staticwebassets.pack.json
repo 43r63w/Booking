@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Images\\Villa\\Premium Pool Villa\\591924b4-e0b3-4c96-b93d-3ec087479910.jpg"
     },
     {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg"
+    },
+    {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\c9868e37-4155-4fc5-90e6-78519e3ce2a0.jpg",
       "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\c9868e37-4155-4fc5-90e6-78519e3ce2a0.jpg"
     },
@@ -59,6 +63,10 @@
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\amenityTable.js",
       "PackagePath": "staticwebassets\\js\\amenityTable.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings.js",
+      "PackagePath": "staticwebassets\\js\\bookings.js"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\site.js",

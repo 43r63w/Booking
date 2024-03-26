@@ -3,48 +3,8 @@
   "WorkspaceRootPath": "D:\\Repositories\\Booking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\views\\shared\\_villalist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\views\\shared\\_villalist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\views\\shared\\_villadetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\views\\shared\\_villadetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|d:\\repositories\\booking\\booking\\views\\villa\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43986005-F3FD-43BC-BEB6-815756B8A701}|Booking\\Endpoint.csproj|solutionrelative:booking\\views\\villa\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D7D6617-AA28-4CEC-9BD9-A815354CD1AB}|Domain\\Domain.csproj|d:\\repositories\\booking\\domain\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D7D6617-AA28-4CEC-9BD9-A815354CD1AB}|Domain\\Domain.csproj|solutionrelative:domain\\models\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D7D6617-AA28-4CEC-9BD9-A815354CD1AB}|Domain\\Domain.csproj|d:\\repositories\\booking\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D7D6617-AA28-4CEC-9BD9-A815354CD1AB}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3403D17-A968-41F4-97C8-2C015011A82C}|Application\\Application.csproj|d:\\repositories\\booking\\application\\utility\\checkvillaavalaible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3403D17-A968-41F4-97C8-2C015011A82C}|Application\\Application.csproj|solutionrelative:application\\utility\\checkvillaavalaible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,153 +14,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 374,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_VillaDetails.cshtml",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_VillaDetails.cshtml",
-              "RelativeDocumentMoniker": "Booking\\Views\\Shared\\_VillaDetails.cshtml",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_VillaDetails.cshtml",
-              "RelativeToolTip": "Booking\\Views\\Shared\\_VillaDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T12:01:47.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Booking\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Booking\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T12:01:22.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Booking\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Booking\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAwwFkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T12:00:15.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
-              "ToolTip": "D:\\Repositories\\Booking\\Domain\\Models\\User.cs",
-              "RelativeToolTip": "Domain\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T11:58:52.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Upsert.cshtml",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Views\\Villa\\Upsert.cshtml",
-              "RelativeDocumentMoniker": "Booking\\Views\\Villa\\Upsert.cshtml",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Views\\Villa\\Upsert.cshtml",
-              "RelativeToolTip": "Booking\\Views\\Villa\\Upsert.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAA8AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T11:39:06.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Notification.cshtml",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_Notification.cshtml",
-              "RelativeDocumentMoniker": "Booking\\Views\\Shared\\_Notification.cshtml",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_Notification.cshtml",
-              "RelativeToolTip": "Booking\\Views\\Shared\\_Notification.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T11:37:31.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Booking\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Booking\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T11:14:04.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Program.cs",
-              "RelativeDocumentMoniker": "Booking\\Program.cs",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Program.cs",
-              "RelativeToolTip": "Booking\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T10:58:19.174Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_VillaList.cshtml",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_VillaList.cshtml",
-              "RelativeDocumentMoniker": "Booking\\Views\\Shared\\_VillaList.cshtml",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Views\\Shared\\_VillaList.cshtml",
-              "RelativeToolTip": "Booking\\Views\\Shared\\_VillaList.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T10:57:30.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Booking\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Booking\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Repositories\\Booking\\Booking\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Booking\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBcAAAANAAAA",
+              "Title": "CheckVillaAvalaible.cs",
+              "DocumentMoniker": "D:\\Repositories\\Booking\\Application\\Utility\\CheckVillaAvalaible.cs",
+              "RelativeDocumentMoniker": "Application\\Utility\\CheckVillaAvalaible.cs",
+              "ToolTip": "D:\\Repositories\\Booking\\Application\\Utility\\CheckVillaAvalaible.cs",
+              "RelativeToolTip": "Application\\Utility\\CheckVillaAvalaible.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T10:50:36.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Villa.cs",
-              "DocumentMoniker": "D:\\Repositories\\Booking\\Domain\\Models\\Villa.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Villa.cs",
-              "ToolTip": "D:\\Repositories\\Booking\\Domain\\Models\\Villa.cs",
-              "RelativeToolTip": "Domain\\Models\\Villa.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T10:12:56.248Z",
+              "WhenOpened": "2024-03-26T16:16:05.254Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,89 @@
+﻿@{
+    var status = Context.Request.Query["status"];
+    var all = "active";
+    var approved = "";
+    var cancelled = "";
+    var pending = "";
+    var refunded = "";
+
+    switch (status)
+    {
+        case "Approved":
+            approved = "active";
+            break;
+        case "Cancelled":
+            cancelled = "active";
+            break;
+        case "Pending":
+            pending = "active";
+            break;
+        case "Refunded":
+            refunded = "active";
+            break;
+        default:
+            break;
+    }
+
+
+    if (!string.IsNullOrEmpty(approved))
+        all = "";
+    else if (!string.IsNullOrEmpty(cancelled))
+        all = "";
+    else if (!string.IsNullOrEmpty(pending))
+        all = "";
+    else if (!string.IsNullOrEmpty(refunded))
+        all = "";
+
+
+}
+
+
+
+<div style="margin-left:250px;" class="w-75 card border-0 p-4">
+
+    <div class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Bookings List</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body p-4 border">
+
+        <div style="margin-left:160px;" class="row pb-3">
+            <div class="row pb-1">
+                <div class="col-6 offset-6">
+                    <a class="btn btn-outline-success @all " asp-controller="Booking" asp-action="Index" asp-route-status="All">
+                        <i class="bi bi-check-all "></i> All
+                    </a>
+                    <a class="btn btn-outline-success @approved" asp-controller="Booking" asp-action="Index" asp-route-status="Approved"><i class="bi bi-check-circle"></i></i> Approved</a>
+                    <a class="btn btn-outline-success @cancelled" asp-controller="Booking" asp-action="Index" asp-route-status="Cancelled"><i class="bi bi-x-square"></i> Cancelled</a>
+                    <a class="btn btn-outline-success "><i class="bi bi-stopwatch"></i> Pending</a>
+                    <a class="btn btn-outline-success "><i class="bi bi-credit-card-2-back"></i> Refunded</a>
+                </div>
+            </div>
+        </div>
+
+        <table id="bookingTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Total Cost</th>
+                    <th>Villa Name</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    <script src="~/js/bookings.js"></script>
+}
+
+
