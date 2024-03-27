@@ -12,13 +12,22 @@
                 <p class="card-text" style="font-size:large">
                     @Html.Raw(Model.Description)
                 </p>
-                <p class="h5 text-white">Villa Amenities</p>
-                <ul>
-                    @foreach (var amenity in Model.VillaAmenities)
-                    {
-                        <li>@amenity.Name</li>
-                    }
-                </ul>
+                @if (Model.VillaAmenities == null)
+                {
+
+                }
+                else
+                {
+                    <p class="h5 text-white">Villa Amenities</p>
+                    <ul>
+                        @foreach (var amenity in Model.VillaAmenities)
+                        {
+                            <li>@amenity.Name</li>
+                        }
+                    </ul>
+
+                }
+
             </div>
         </div>
         <div class="row col-12">

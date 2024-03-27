@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Stripe;
 using Stripe.Checkout;
+using System.Net.Http.Headers;
 using System.Security.Claims;
-
 
 namespace Endpoint.Controllers
 {
@@ -24,8 +24,6 @@ namespace Endpoint.Controllers
             return View();
         }
 
-
-
         [HttpGet]
         public async Task<IActionResult> FinalizeBooking(int villaId, DateOnly checkInDate, int nights)
         {
@@ -37,7 +35,6 @@ namespace Endpoint.Controllers
                 Villa = await _unitOfWork.IVillaService.GetAsync(i => i.Id == villaId, includeOptions: "VillaAmenities"),
                 CheckOutDate = checkInDate.AddDays(nights),
             };
-
             return View(booking);
         }
 
@@ -124,6 +121,21 @@ namespace Endpoint.Controllers
 
             return View(bookingId);
         }
+
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> GetBooking(int bookingId)
+        {
+            var booking = await _unitOfWork.IBookingService.GetAsync(i => i.Id == bookingId, includeOptions: "Villa,User");
+            if (booking != null)
+            {
+                return View(booking);
+            }
+            return View();
+        }
+
+
         #region DataTablesCall
         [HttpGet]
         [Authorize]

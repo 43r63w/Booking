@@ -54,11 +54,12 @@
                                     <li>
                                         <a class="dropdown-item" asp-area="" asp-controller="VillaAmenity" asp-action="Index">Amenities</a>
                                     </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Booking" asp-action="Index">Orders</a>
+                                    </li>
                                 </ul>
                             </div>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="VillaAmenity" asp-action="Index">My Orders</a>
-                            </li>
+                          
                         }
                         else if (_signInManager.IsSignedIn(User))
                         {
@@ -79,6 +80,7 @@
             @RenderBody()
         </main>
     </div>
+
 
   
 

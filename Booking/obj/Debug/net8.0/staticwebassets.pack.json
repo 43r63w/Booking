@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\Logo\\resort.png"
     },
     {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Luxury Pool Villa\\5aa69445-1a1f-4234-baf2-5fa809d20fb7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\5aa69445-1a1f-4234-baf2-5fa809d20fb7.jpg"
+    },
+    {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Luxury Pool Villa\\b1016890-d6bc-4bdd-8e49-40bfb01a06b0.jpg",
       "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\b1016890-d6bc-4bdd-8e49-40bfb01a06b0.jpg"
     },
@@ -67,6 +71,18 @@
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings.js",
       "PackagePath": "staticwebassets\\js\\bookings.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings1.js",
+      "PackagePath": "staticwebassets\\js\\bookings1.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings2.js",
+      "PackagePath": "staticwebassets\\js\\bookings2.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\showPassword.js",
+      "PackagePath": "staticwebassets\\js\\showPassword.js"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\site.js",

@@ -1,4 +1,3 @@
-
 var dataTable;
 
 $(document).ready(function () {
@@ -24,13 +23,15 @@ function loadBookingsTable() {
                      <a href="/booking/GetBooking?bookingId=${data}" class="btn btn-warning mx-2"> <i class="bi bi-pencil-square"></i></a>
                     </div>`
 				},
-				"width": "10%"			
+				"width": "10%"
 			}
 		]
+
+
 
 	})
 
 
-	
+
 
 }

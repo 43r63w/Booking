@@ -8,7 +8,12 @@ D:\Repositories\Booking\Booking\bin\Debug\net8.0\Endpoint.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Endpoint.pdb
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Azure.Core.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Azure.Identity.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Humanizer.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -21,6 +26,9 @@ D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.D
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -32,6 +40,8 @@ D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Repositories\Booking\Booking\bin\Debug\net8.0\Stripe.net.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\System.CodeDom.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\Repositories\Booking\Booking\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -121,6 +131,7 @@ D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.GeneratedMSBuildEditor
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.AssemblyInfoInputs.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.AssemblyInfo.cs
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.csproj.CoreCompileInputs.cache
+D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cs
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.RazorAssemblyInfo.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.RazorAssemblyInfo.cs
@@ -141,14 +152,3 @@ D:\Repositories\Booking\Booking\obj\Debug\net8.0\refint\Endpoint.dll
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.pdb
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.genruntimeconfig.cache
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\ref\Endpoint.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\BCrypt.Net-Next.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cs
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Repositories\Booking\Booking\bin\Debug\net8.0\Stripe.net.dll

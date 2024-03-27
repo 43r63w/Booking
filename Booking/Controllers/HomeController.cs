@@ -1,5 +1,6 @@
 
 using Application.Services;
+using Application.Utility;
 using Booking.Models;
 using Endpoint.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -46,12 +47,17 @@ namespace Booking.Controllers
 
             var villasList = _unitOfWork.IVillaService.GetAll(includeOptions: "VillaAmenities");
 
+            var villasNumberList = _unitOfWork.IVillaRoomService.GetAll().ToList();
+
+            var bookedVillas = _unitOfWork.IBookingService.GetAll(i => i.Status == SD.Approved ||
+                                                                       i.Status == SD.CheckedIn).ToList();
+
             foreach (var villa in villasList)
             {
-                if (villa.Id % 2 == 0)
-                {
-                    villa.IsAvailable = false;
-                }
+                int villasAvailable = SD.VillaRoomsAvailableCount(villa.Id, villasNumberList, checkInDate, nigths, bookedVillas);
+
+
+                villa.IsAvailable = villasAvailable > 0 ? true : false;
             }
 
             HomeVM homeVM = new HomeVM
@@ -61,7 +67,7 @@ namespace Booking.Controllers
                 CheckInDate = checkInDate,
             };
 
-        
+
             return PartialView("_VillaList", homeVM);
 
         }
