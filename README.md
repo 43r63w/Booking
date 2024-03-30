@@ -5,7 +5,7 @@
 .NET 8/ASP.NET MVC/Razor Pages/Clean Architecture
 
 
-
+.NET IDENTITY
 EF CORE
 JavaScript
 BootStrap 5
