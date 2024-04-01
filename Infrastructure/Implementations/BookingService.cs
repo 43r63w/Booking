@@ -1,8 +1,9 @@
-﻿using Application.Services;
+﻿using Application.Common.Interfaces;
 using Application.Utility;
 using Domain.Models;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore.Update.Internal;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -22,7 +23,18 @@ namespace Infrastructure.Implementations
             _context = context;
         }
 
-        public void UpdateStatus(int bookingId, string updateStatus)
+        public IEnumerable<Domain.Models.Booking> GetBookings(string? status)
+        {
+            if (status == "null" || status == "All")
+                return _context.Bookings.ToList();
+
+
+            return _context.Bookings.Where(u => u.Status == status).ToList();
+
+
+        }
+
+        public void UpdateStatus(int bookingId, string updateStatus, int villaNumber = 0)
         {
             var booking = _context.Bookings.FirstOrDefault(i => i.Id == bookingId);
             if (booking != null)
@@ -30,7 +42,11 @@ namespace Infrastructure.Implementations
                 booking.Status = updateStatus;
 
                 if (updateStatus == SD.CheckedIn)
+                {
+                    booking.VillaNumber = villaNumber;
                     booking.ActualCheckInDate = DateTime.Now;
+                }
+
 
                 if (updateStatus == SD.Approved)
                     booking.ActualCheckOutDate = DateTime.Now;

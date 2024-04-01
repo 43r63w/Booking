@@ -1,11 +1,14 @@
 
+using Application.Common.Interfaces;
 using Application.Services;
+using Application.Services.Implementation;
 using Domain.Models;
 using Infrastructure.Data;
 using Infrastructure.Implementations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Stripe;
+using System.Data.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,7 +39,8 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+builder.Services.AddScoped<IDashboardService, DashboardService>();
+builder.Services.AddScoped<IDbinitializer, DbInitializer>();
 
 
 
@@ -61,13 +65,21 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
-;
+
+SeedDataBase();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
     );
 
-
-
 app.Run();
+
+void SeedDataBase()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbinitializer>();
+        dbInitializer.Initialize();
+    }
+}

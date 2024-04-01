@@ -1,4 +1,4 @@
-﻿using Application.Services;
+﻿using Application.Common.Interfaces;
 using Application.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -128,60 +128,110 @@ namespace Endpoint.Controllers
         public async Task<IActionResult> GetBooking(int bookingId)
         {
             var booking = await _unitOfWork.IBookingService.GetAsync(i => i.Id == bookingId, includeOptions: "Villa,User");
+
+            if (booking.VillaNumber == 0
+                && booking.Status == SD.Approved)
+            {
+                var availableRooms = GetAvailableVillaNumbers(booking.VillaId);
+
+                booking.VillasNumber = _unitOfWork.IVillaRoomService.GetAll(i => i.VillaId == booking.VillaId &&
+                                                                          availableRooms.Any(u => u == i.Villa_Number)).ToList();
+            }
+
             if (booking != null)
             {
                 return View(booking);
             }
+
             return View();
         }
+
+
+        [HttpPost]
+        [Authorize(Roles = SD.Admin)]
+        public async Task<IActionResult> CheckIn(Domain.Models.Booking booking)
+        {
+
+
+            _unitOfWork.IBookingService.UpdateStatus(booking.Id, SD.CheckedIn, booking.VillaNumber);
+            await _unitOfWork.SaveAsync();
+            TempData["success"] = "Booking successfully update";
+
+            return RedirectToAction(nameof(GetBooking), new { bookingId = booking.Id });
+        }
+
+
+        [HttpPost]
+        [Authorize(Roles = SD.Admin)]
+        public async Task<IActionResult> CheckOut(Domain.Models.Booking booking)
+        {
+            _unitOfWork.IBookingService.UpdateStatus(booking.Id, SD.Completed, booking.VillaNumber);
+            await _unitOfWork.SaveAsync();
+            TempData["success"] = "Booking successfully completed";
+
+            return RedirectToAction(nameof(GetBooking), new { bookingId = booking.Id });
+        }
+
+
+        [HttpPost]
+        [Authorize(Roles = SD.Admin)]
+        public async Task<IActionResult> Cancel(Domain.Models.Booking booking)
+        {
+            _unitOfWork.IBookingService.UpdateStatus(booking.Id, SD.Cancelled, 0);
+            await _unitOfWork.SaveAsync();
+            TempData["success"] = "Booking successfully update";
+
+            return RedirectToAction(nameof(GetBooking), new { bookingId = booking.Id });
+        }
+
 
 
         #region DataTablesCall
         [HttpGet]
         [Authorize]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll(string status)
         {
-            var claim = (ClaimsIdentity)User.Identity;
+         
+            IEnumerable<Domain.Models.Booking>? getBooking;
 
-            var userRole = claim.FindFirst(ClaimTypes.Role).Value;
-
-            if (userRole == SD.Admin)
+            if (User.IsInRole(SD.Admin))
             {
-                var bookings = await _unitOfWork.IBookingService.GetAllAsync(includeOptions: "Villa,User");
-                return Json(new { data = bookings });
-            }
-            else if (userRole == SD.Customer)
-            {
-                var userId = claim.FindFirst(ClaimTypes.NameIdentifier).Value;
-                var bookings = await _unitOfWork.IBookingService.GetAllAsync(i => i.UserId == userId, includeOptions: "Villa,User");
-                return Json(new { data = bookings });
+                getBooking = _unitOfWork.IBookingService.GetBookings(status);
+                return Json(new { data = getBooking });
             }
 
-            throw new ApplicationException();
+            getBooking = _unitOfWork.IBookingService.GetBookings(status);
+
+            return Json(new { data = getBooking });
+
         }
+
+        private List<int> GetAvailableVillaNumbers(int villaId)
+        {
+            List<int> availableVillaRooms = new();
+
+            var villasNumber = _unitOfWork.IVillaRoomService.GetAll(i => i.VillaId == villaId);
+
+            var checkedInVilla = _unitOfWork.IBookingService.GetAll(i => i.VillaId == villaId && i.Status == SD.Completed && i.Status == SD.CheckedIn)
+                .Select(i => i.VillaNumber);
+
+            foreach (var villa in villasNumber)
+            {
+                if (!checkedInVilla.Contains(villa.Villa_Number))
+                {
+                    availableVillaRooms.Add(villa.Villa_Number);
+                }
+            }
+
+            return availableVillaRooms;
+        }
+
 
         #endregion
 
 
-        #region Helper Method
-        [Authorize]
-        private async Task<IEnumerable<Domain.Models.Booking>> ShowBookingsWithParameters(string status)
-        {
-            return await _unitOfWork.IBookingService.GetAllAsync(e => e.Status == status);
-        }
-        #endregion
 
 
     }
-
-
-
-
-
-
-
-
-
-
 
 }

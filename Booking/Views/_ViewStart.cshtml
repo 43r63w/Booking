@@ -1,3 +1,8 @@
-﻿@{
+﻿@if (User.IsInRole(SD.Admin))
+{
+      Layout = "_LayoutAdmin";
+}
+else
+{
     Layout = "_Layout";
 }

@@ -1,5 +1,5 @@
 
-using Application.Services;
+using Application.Common.Interfaces;
 using Application.Utility;
 using Booking.Models;
 using Endpoint.ViewModels;
@@ -67,17 +67,15 @@ namespace Booking.Controllers
                 CheckInDate = checkInDate,
             };
 
-
             return PartialView("_VillaList", homeVM);
-
         }
-
 
 
         public IActionResult Privacy()
         {
             return View();
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

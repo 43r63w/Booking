@@ -144,6 +144,7 @@ D:\Repositories\Booking\Booking\obj\Debug\net8.0\staticwebassets\msbuild.buildMu
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Endpoint.props
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Repositories\Booking\Booking\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\scopedcss\bundle\Endpoint.styles.css
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\scopedcss\projectbundle\Endpoint.bundle.scp.css
 D:\Repositories\Booking\Booking\obj\Debug\net8.0\Endpoint.csproj.Up2Date

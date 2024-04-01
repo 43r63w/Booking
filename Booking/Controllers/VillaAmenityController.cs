@@ -1,4 +1,4 @@
-﻿using Application.Services;
+﻿using Application.Common.Interfaces;
 using Application.Utility;
 using Domain.Models;
 using Endpoint.ViewModels;

@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\c9868e37-4155-4fc5-90e6-78519e3ce2a0.jpg"
     },
     {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\css\\apexcharts.css"
+    },
+    {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -69,16 +73,40 @@
       "PackagePath": "staticwebassets\\js\\amenityTable.js"
     },
     {
-      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings.js",
-      "PackagePath": "staticwebassets\\js\\bookings.js"
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\js\\apexcharts.js"
     },
     {
-      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings1.js",
-      "PackagePath": "staticwebassets\\js\\bookings1.js"
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
     },
     {
-      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\bookings2.js",
-      "PackagePath": "staticwebassets\\js\\bookings2.js"
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\booking1.js",
+      "PackagePath": "staticwebassets\\js\\booking1.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalBookingByLineChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalBookingByLineChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalBookingByRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalBookingByRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalBookingsByPieChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalBookingsByPieChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalRevenueByRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalRevenueByRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalUserByRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalUserByRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\loadRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\loadRadialChart.js"
     },
     {
       "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\showPassword.js",

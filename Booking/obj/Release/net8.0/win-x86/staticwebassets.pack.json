@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\obj\\Release\\net8.0\\win-x86\\scopedcss\\projectbundle\\Endpoint.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Endpoint.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\accessDenied.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\accessDenied.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\notfound.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\notfound.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\orderConfirmed.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\orderConfirmed.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\placeholder.png",
+      "PackagePath": "staticwebassets\\Images\\Assests\\placeholder.png"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\slide1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Assests\\slide2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Assests\\slide2.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Logo\\resort.png",
+      "PackagePath": "staticwebassets\\Images\\Logo\\resort.png"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Luxury Pool Villa\\5aa69445-1a1f-4234-baf2-5fa809d20fb7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\5aa69445-1a1f-4234-baf2-5fa809d20fb7.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Luxury Pool Villa\\b1016890-d6bc-4bdd-8e49-40bfb01a06b0.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Luxury Pool Villa\\b1016890-d6bc-4bdd-8e49-40bfb01a06b0.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Premium Pool Villa\\591924b4-e0b3-4c96-b93d-3ec087479910.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Premium Pool Villa\\591924b4-e0b3-4c96-b93d-3ec087479910.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\3249d15d-928d-4c5d-acfc-babbf04cc4f7.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\Images\\Villa\\Royal Villa\\c9868e37-4155-4fc5-90e6-78519e3ce2a0.jpg",
+      "PackagePath": "staticwebassets\\Images\\Villa\\Royal Villa\\c9868e37-4155-4fc5-90e6-78519e3ce2a0.jpg"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\css\\apexcharts.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\css\\spinner.css",
+      "PackagePath": "staticwebassets\\css\\spinner.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\amenityTable.js",
+      "PackagePath": "staticwebassets\\js\\amenityTable.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\js\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\booking1.js",
+      "PackagePath": "staticwebassets\\js\\booking1.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalBookingByLineChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalBookingByLineChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalBookingByRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalBookingByRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalBookingsByPieChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalBookingsByPieChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalRevenueByRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalRevenueByRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\getTotalUserByRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\getTotalUserByRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\dashboard\\loadRadialChart.js",
+      "PackagePath": "staticwebassets\\js\\dashboard\\loadRadialChart.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\showPassword.js",
+      "PackagePath": "staticwebassets\\js\\showPassword.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\villa.js",
+      "PackagePath": "staticwebassets\\js\\villa.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\js\\villaNumber1.js",
+      "PackagePath": "staticwebassets\\js\\villaNumber1.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Repositories\\Booking\\Booking\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.Endpoint.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.build.Endpoint.props",
+      "PackagePath": "build\\Endpoint.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.Endpoint.props",
+      "PackagePath": "buildMultiTargeting\\Endpoint.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.Endpoint.props",
+      "PackagePath": "buildTransitive\\Endpoint.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

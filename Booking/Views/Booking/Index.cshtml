@@ -1,6 +1,7 @@
 ﻿@{
     var status = Context.Request.Query["status"];
     var all = "active";
+    var completed = "";
     var approved = "";
     var cancelled = "";
     var pending = "";
@@ -10,6 +11,9 @@
     {
         case "Approved":
             approved = "active";
+            break;
+        case "Completed":
+            completed = "active";
             break;
         case "Cancelled":
             cancelled = "active";
@@ -28,6 +32,8 @@
     if (!string.IsNullOrEmpty(approved))
         all = "";
     else if (!string.IsNullOrEmpty(cancelled))
+        all = "";
+    else if (!string.IsNullOrEmpty(completed))
         all = "";
     else if (!string.IsNullOrEmpty(pending))
         all = "";
@@ -51,17 +57,38 @@
 
     <div class="card-body p-4 border">
 
-        <div style="margin-left:100px;" class="row pb-3">
+        <div style="margin-left:40px;" class="row pb-3">
             <div class="row pb-1">
-                <div class="col-12 offset-6">
-                    <a class="btn btn-outline-success @all " asp-controller="Booking" asp-action="Index" asp-route-status="All">
-                        <i class="bi bi-check-all "></i> All
-                    </a>
-                    <a class="btn btn-outline-success @approved" asp-controller="Booking" asp-action="Index" asp-route-status="Approved"><i class="bi bi-check-circle"></i></i> Approved</a>
-                    <a class="btn btn-outline-success @cancelled" asp-controller="Booking" asp-action="Index" asp-route-status="Cancelled"><i class="bi bi-x-square"></i> Cancelled</a>
-                    <a class="btn btn-outline-success "><i class="bi bi-stopwatch"></i> Pending</a>
-                    <a class="btn btn-outline-success "><i class="bi bi-credit-card-2-back"></i> Refunded</a>
-                </div>
+
+
+                @if (User.IsInRole(SD.Admin))
+                {
+                    <div class="col-12 offset-3">
+                        <a class="btn btn-outline-success @all " asp-controller="Booking" asp-action="Index" asp-route-status="All">
+                            <i class="bi bi-check-all "></i> All
+                        </a>
+                        <a class="btn btn-outline-success @completed" asp-controller="Booking" asp-action="Index" asp-route-status="Completed"><i class="bi bi-x-square"></i> Completed</a>
+                        <a class="btn btn-outline-success @approved" asp-controller="Booking" asp-action="Index" asp-route-status="Approved"><i class="bi bi-check"></i>Approved</a>
+
+                        <a class="btn btn-outline-success @cancelled" asp-controller="Booking" asp-action="Index" asp-route-status="Cancelled"><i class="bi bi-x-square"></i> Cancelled</a>
+                        <a class="btn btn-outline-success "><i class="bi bi-stopwatch"></i> Pending</a>
+                        <a class="btn btn-outline-success "><i class="bi bi-credit-card-2-back"></i> Refunded</a>
+                    </div>
+
+                }
+                else
+                {
+                    <div class="col-12 offset-6">
+                        <a class="btn btn-outline-success @all " asp-controller="Booking" asp-action="Index" asp-route-status="All">
+                            <i class="bi bi-check-all "></i> All
+                        </a>
+                        <a class="btn btn-outline-success @completed" asp-controller="Booking" asp-action="Index" asp-route-status="Completed"><i class="bi bi-x-square"></i> Completed</a>
+                        <a class="btn btn-outline-success @approved" asp-controller="Booking" asp-action="Index" asp-route-status="Approved"><i class="bi bi-check"></i>Approved</a>
+                        <a class="btn btn-outline-success @cancelled" asp-controller="Booking" asp-action="Index" asp-route-status="Cancelled"><i class="bi bi-x-square"></i> Cancelled</a>
+                        <a class="btn btn-outline-success"><i class="bi bi-stopwatch"></i> Pending</a>
+                        <a class="btn btn-outline-success"><i class="bi bi-credit-card-2-back"></i> Refunded</a>
+                    </div>
+                }
             </div>
         </div>
 
@@ -83,7 +110,7 @@
 
 
 @section Scripts {
-    <script src="~/js/bookings2.js"></script>
+    <script src="~/js/booking.js"></script>
 }
 
 

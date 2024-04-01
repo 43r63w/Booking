@@ -1,5 +1,5 @@
 ﻿
-using Application.Services;
+using Application.Common.Interfaces;
 using Application.Utility;
 using Domain.Models;
 using Endpoint.ViewModels;
@@ -131,10 +131,22 @@ namespace Endpoint.Controllers
 
                 if (result.Succeeded)
                 {
-                    if (string.IsNullOrEmpty(loginVM.RedirectUrl))
-                        return RedirectToAction("Index", "Home");
+
+                    var user = await _userManager.FindByEmailAsync(loginVM.Email);
+
+                    if (await _userManager.IsInRoleAsync(user, SD.Admin))
+                    {
+                        return RedirectToAction("Index", "Admin");
+                    }
                     else
-                        return LocalRedirect(loginVM.RedirectUrl);
+                    {
+                        if (string.IsNullOrEmpty(loginVM.RedirectUrl))
+                            return RedirectToAction("Index", "Home");
+                        else
+                            return LocalRedirect(loginVM.RedirectUrl);
+                    }
+
+
                 }
             }
             else
